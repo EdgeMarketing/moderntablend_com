@@ -2,11 +2,22 @@
 <html>
 <head>
     <title>Modern Table | Coming Soon | Fargo, ND</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <style>
+        html {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        font-weight: 400;
+        }
         body, html {
             height: 100%;
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,10 +26,14 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        h1 { 
+            margin: 0;
+            font-size: 40px; 
+        }
         .container {
             text-align: center;
             background-color: rgba(255, 255, 255, 0.8);
-            padding: 60px 20px;
+            padding: 60px 0px;
             max-width: 90%;
             box-sizing: border-box;
         }
@@ -47,11 +62,11 @@
 <body>
     <div class="container">
         <img src="monogram.png" alt="Logo" class="logo">
-        <h1>Coming Soon</h1>
+        <p style="margin-bottom:10px">NEW NAME. NEW WEBSITE.</p>
+        <h1>Coming Soon.</h1>
         <p>In the meantime, please email <a href="mailto:morgan.joyfullyfed@gmail.com">morgan.joyfullyfed@gmail.com</a></p>
         <div class="social-links">
-            <a href="https://www.facebook.com/joyfullyfed" target="_blank">Facebook</a>
-            <a href="https://www.instagram.com/joyfully_fed/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/joyfullyfed" target="_blank"><i class="zmdi zmdi-facebook-box"></i></a><a href="https://www.instagram.com/joyfully_fed/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
         </div>
     </div>
 </body>
